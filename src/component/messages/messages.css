@@ -1,5 +1,11 @@
 .messages {
-    padding: 5% 0;
-    overflow: auto;
-    flex: auto;
+  height: 54vh;
+  overflow: auto;
+  flex: auto;
+}
+
+@media (max-width: 480px) {
+  .messages {
+    height: 78vh;
   }
+}
