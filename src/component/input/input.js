@@ -15,7 +15,7 @@ const Input = ({ message, setMessage, sendMessage }) => (
       }
     />
     <button
-      className="sendButton"
+      className="send-btn"
       onClick={(event) => sendMessage(event)}
     >Send</button>
   </form>
