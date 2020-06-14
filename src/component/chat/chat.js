@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import queryString from 'query-string';
 import io from 'socket.io-client';
-import TextContainer from '../text-container/text-container';
 import InfoBar from '../info-bar/info-bar';
+import Sidebar from '../sidebar/sidebar';
 import Messages from '../messages/messages';
 import Input from '../input/input';
 import './chat.css';
@@ -15,7 +15,8 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = 'https://cheez-meez.herokuapp.com/';
+  // const ENDPOINT = 'https://cheez-meez.herokuapp.com/';
+  const ENDPOINT = 'localhost:5000';
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
@@ -53,16 +54,26 @@ const Chat = ({ location }) => {
 
   return (
     <div className="outerContainer">
-      <div className="container">
-        <InfoBar room={room} />
-        <Messages messages={messages} name={name} />
-        <Input
-          message={message}
-          setMessage={setMessage}
-          sendMessage={sendMessage}
-        />
-      </div>
-      <TextContainer users={users} />
+      <a className="new-tab" target="_blank" href="/react-cheez-meez">
+        Clik here to try it and login with different name but
+        same room.
+      </a>
+      {users.length > 0 ? (
+        <div className="container">
+          <div className="left-container">
+            <Sidebar users={users} room={room} />
+          </div>
+          <div className="right-container">
+            <InfoBar room={room} />
+            <Messages messages={messages} name={name} />
+            <Input
+              message={message}
+              setMessage={setMessage}
+              sendMessage={sendMessage}
+            />
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 };
