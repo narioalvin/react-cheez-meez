@@ -13,7 +13,7 @@ const Join = () => {
         Clik here to try it and login with different name but same room.
       </a>
       <div className="joinInnerContainer">
-        <img width="150" src={login} />
+        <img width="150" src={login} alt="login" />
 
         <h1 className="heading">CheezMeez</h1>
         <div>

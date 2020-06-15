@@ -15,8 +15,8 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
-  // const ENDPOINT = 'https://cheez-meez.herokuapp.com/';
-  const ENDPOINT = 'localhost:5000';
+  const ENDPOINT = 'https://cheez-meez.herokuapp.com/';
+  // const ENDPOINT = 'localhost:5000';
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
@@ -54,10 +54,9 @@ const Chat = ({ location }) => {
 
   return (
     <div className="outerContainer">
-      <a className="new-tab" target="_blank" href="/react-cheez-meez">
-        Clik here to try it and login with different name but
-        same room.
-      </a>
+      {users.length > 0 ? (<a className="new-tab" target="_blank" href="/react-cheez-meez">
+        Clik here to try it and login with different name but same room.
+      </a>) : null }
       {users.length > 0 ? (
         <div className="container">
           <div className="left-container">
@@ -73,7 +72,9 @@ const Chat = ({ location }) => {
             />
           </div>
         </div>
-      ) : null}
+      ) : (
+          <div className="loader4"></div>
+      )}
     </div>
   );
 };

@@ -48,6 +48,12 @@
   display: inline-block;
   border: none;
   width: 100%;
+  cursor: pointer;
+}
+
+
+.button:hover {
+  opacity: 0.8;
 }
 
 .mt-20 {

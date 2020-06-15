@@ -7,7 +7,7 @@ const Sidebar = ({ users, room }) => (
     {users ? (
       <div>
         <div className="side-header">
-          <h3>CheezMeez</h3>
+          <h3>Cheez Meez</h3>
         </div>
         <div className="side-content">
           <h4 className="label">Room Name</h4>
