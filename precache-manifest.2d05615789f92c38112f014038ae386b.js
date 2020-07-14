@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0de3bcad259c6afda0fdf4cd7e223ddc",
+    "revision": "11fa4ec581633b145c93cea2a25dae9c",
     "url": "/react-cheez-meez/index.html"
   },
   {
-    "revision": "643921dbf9ee120ac180",
-    "url": "/react-cheez-meez/static/css/main.794f5a2d.chunk.css"
+    "revision": "80e9c99c619192281556",
+    "url": "/react-cheez-meez/static/css/main.401a36b2.chunk.css"
   },
   {
-    "revision": "7ae2f961d373bd61f399",
-    "url": "/react-cheez-meez/static/js/2.acef412d.chunk.js"
+    "revision": "30e1839a00f171212369",
+    "url": "/react-cheez-meez/static/js/2.92bde2a4.chunk.js"
   },
   {
     "revision": "d0550c944a9928585a31b6efc1a5d942",
-    "url": "/react-cheez-meez/static/js/2.acef412d.chunk.js.LICENSE.txt"
+    "url": "/react-cheez-meez/static/js/2.92bde2a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "643921dbf9ee120ac180",
-    "url": "/react-cheez-meez/static/js/main.3a5fb73c.chunk.js"
+    "revision": "80e9c99c619192281556",
+    "url": "/react-cheez-meez/static/js/main.295160ef.chunk.js"
   },
   {
     "revision": "174f5dc6da3a8007f2d7",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "731dd5c1f7da711e37680134ae416b96",
     "url": "/react-cheez-meez/static/media/login.731dd5c1.svg"
+  },
+  {
+    "revision": "e29a697b33001ed8a3a5c4da3a65febe",
+    "url": "/react-cheez-meez/static/media/logo.e29a697b.svg"
   }
 ]);
