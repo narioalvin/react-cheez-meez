@@ -8,12 +8,12 @@ const Join = () => {
   const [room, setRoom] = useState('');
 
   return (
-    <div className="joinOuterContainer">
-      <a className="login-link" target="_blank" href="/react-cheez-meez">
+    <div className="outer-container">
+      {/* <a className="login-link" target="_blank" href="/react-cheez-meez">
         Clik here to try it and login with different name but same room.
-      </a>
-      <div className="joinInnerContainer">
-        <img width="150" src={login} alt="login" />
+      </a> */}
+      <div className="inner-container">
+       <center><img width="150" src={login} alt="login" /></center>
 
         <h1 className="heading">CheezMeez</h1>
         <div>

@@ -5,11 +5,11 @@ import closeIcon from '../../assets/icons/closeIcon.png';
 import './info-bar.css';
 
 const InfoBar = ({ room }) => (
-  <div className="infoBar">
-    <div className="leftInnerContainer">
-        <h3>{ room }</h3>
+  <div className="info">
+    <div className="left-inner-container">
+     <h3>{ room }</h3>
     </div>
-    <div className="rightInnerContainer">
+    <div className="right-inner-container">
         <a href="/"><img src={closeIcon} alt="close" /></a>
     </div>
   </div>

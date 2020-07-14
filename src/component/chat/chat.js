@@ -54,9 +54,6 @@ const Chat = ({ location }) => {
 
   return (
     <div className="outerContainer">
-      {users.length > 0 ? (<a className="new-tab" target="_blank" href="/react-cheez-meez">
-        Clik here to try it and login with different name but same room.
-      </a>) : null }
       {users.length > 0 ? (
         <div className="container">
           <div className="left-container">

@@ -1,7 +1,7 @@
 .form {
   display: flex;
+  align-items: center;
   border-top: 1px solid #d3d3d3;
-  height: 50px;
 }
 
 .input {
@@ -22,10 +22,12 @@ select:focus {
 .send-btn {
   color: #fff !important;
   text-decoration: none;
-  background: #2979ff;
+  background: #423a78;
   display: inline-block;
   border: none;
   width: 20%;
+  font-weight: bold;
+  max-width: 100px;
   height: 31px;
   border-radius: 5px;
   position: relative;

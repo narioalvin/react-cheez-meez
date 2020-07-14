@@ -1,18 +1,25 @@
 .sidebar {
   height: 100%;
   color: #ffffff;
+  background: #423a78;
 }
 
 .side-header {
   height: 60px;
-  padding: 18px 0 0 20px;
-  background: #523a78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #363062;
+}
+
+.side-header img {
+  margin-right: 5px;
 }
 
 .side-content {
   padding: 3px 18px;
-  height: 62vh;
-  background: #5e428a;
+  /* height: 62vh;
+  background: #4d4c7d; */
 }
 
 .active-list {
@@ -25,6 +32,12 @@
 
 .active-item span {
   margin-left: 5px;
+  font-size: 15px;
+}
+
+.active-item h5 {
+  font-size: 15px;
+  margin-top: 8px;
 }
 
 .label {

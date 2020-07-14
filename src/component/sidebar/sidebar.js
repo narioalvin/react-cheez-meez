@@ -1,5 +1,6 @@
 import React from 'react';
 import onlineIcon from '../../assets/icons/onlineIcon.png';
+import logo from '../../assets/img/logo.svg';
 import './sidebar.css';
 
 const Sidebar = ({ users, room }) => (
@@ -7,12 +8,12 @@ const Sidebar = ({ users, room }) => (
     {users ? (
       <div>
         <div className="side-header">
-          <h3>Cheez Meez</h3>
+        <img width="20" src={logo} alt="" /> <h3>CheezMeez</h3>
         </div>
         <div className="side-content">
           <h4 className="label">Room Name</h4>
           <div className="active-item">
-            <h5>{room}</h5>
+            <h5># {room}</h5>
           </div>
           <h4 className="label">Active</h4>
           <div className="active-list">
