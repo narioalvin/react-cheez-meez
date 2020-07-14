@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cheez Meez
+
+## Live
+[Click Me](https://narioalvin.github.io/react-cheez-meez/)
 
 ## Available Scripts
 
