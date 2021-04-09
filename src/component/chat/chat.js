@@ -53,13 +53,13 @@ const Chat = ({ location }) => {
   };
 
   return (
-    <div className="outerContainer">
+    <div className='outerContainer'>
       {users.length > 0 ? (
-        <div className="container">
-          <div className="left-container">
+        <div className='container'>
+          <div className='left-container'>
             <Sidebar users={users} room={room} />
           </div>
-          <div className="right-container">
+          <div className='right-container'>
             <InfoBar room={room} />
             <Messages messages={messages} name={name} />
             <Input
@@ -70,7 +70,11 @@ const Chat = ({ location }) => {
           </div>
         </div>
       ) : (
-          <div className="loader4"></div>
+        <>
+          <h4 style={{ color: '#ffffff' }}>Joining room...</h4>
+          <br />
+          <div className='loader4'></div>
+        </>
       )}
     </div>
   );
