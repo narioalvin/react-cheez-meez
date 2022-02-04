@@ -1,4 +1,4 @@
-# Holidays
+# React Cheez-Meez
 
 ## Live
 [Click Me](https://narioalvin.github.io/react-cheez-meez/)
