@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-cheez-meez/static/css/main.401a36b2.chunk.css",
-    "main.js": "/react-cheez-meez/static/js/main.7495fa6f.chunk.js",
-    "main.js.map": "/react-cheez-meez/static/js/main.7495fa6f.chunk.js.map",
+    "main.css": "/react-cheez-meez/static/css/main.1073257d.chunk.css",
+    "main.js": "/react-cheez-meez/static/js/main.fd328966.chunk.js",
+    "main.js.map": "/react-cheez-meez/static/js/main.fd328966.chunk.js.map",
     "runtime-main.js": "/react-cheez-meez/static/js/runtime-main.750f2f18.js",
     "runtime-main.js.map": "/react-cheez-meez/static/js/runtime-main.750f2f18.js.map",
-    "static/js/2.1640056f.chunk.js": "/react-cheez-meez/static/js/2.1640056f.chunk.js",
-    "static/js/2.1640056f.chunk.js.map": "/react-cheez-meez/static/js/2.1640056f.chunk.js.map",
+    "static/js/2.109c634c.chunk.js": "/react-cheez-meez/static/js/2.109c634c.chunk.js",
+    "static/js/2.109c634c.chunk.js.map": "/react-cheez-meez/static/js/2.109c634c.chunk.js.map",
     "index.html": "/react-cheez-meez/index.html",
-    "precache-manifest.03fe033008c741006d74a64c58f33e54.js": "/react-cheez-meez/precache-manifest.03fe033008c741006d74a64c58f33e54.js",
+    "precache-manifest.e1fd1e0910b045d5f593da6a797d2711.js": "/react-cheez-meez/precache-manifest.e1fd1e0910b045d5f593da6a797d2711.js",
     "service-worker.js": "/react-cheez-meez/service-worker.js",
-    "static/css/main.401a36b2.chunk.css.map": "/react-cheez-meez/static/css/main.401a36b2.chunk.css.map",
-    "static/js/2.1640056f.chunk.js.LICENSE.txt": "/react-cheez-meez/static/js/2.1640056f.chunk.js.LICENSE.txt",
+    "static/css/main.1073257d.chunk.css.map": "/react-cheez-meez/static/css/main.1073257d.chunk.css.map",
+    "static/js/2.109c634c.chunk.js.LICENSE.txt": "/react-cheez-meez/static/js/2.109c634c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-cheez-meez/static/media/Lato-Regular.2d36b1a9.ttf",
     "static/media/login.svg": "/react-cheez-meez/static/media/login.731dd5c1.svg",
-    "static/media/logo.svg": "/react-cheez-meez/static/media/logo.617164f2.svg"
+    "static/media/logo.svg": "/react-cheez-meez/static/media/logo.e29a697b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.750f2f18.js",
-    "static/js/2.1640056f.chunk.js",
-    "static/css/main.401a36b2.chunk.css",
-    "static/js/main.7495fa6f.chunk.js"
+    "static/js/2.109c634c.chunk.js",
+    "static/css/main.1073257d.chunk.css",
+    "static/js/main.fd328966.chunk.js"
   ]
 }
